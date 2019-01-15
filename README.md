@@ -1,4 +1,3 @@
-# Object_recognition
 
 ## Goal : Find lost property through image recognition.
 
