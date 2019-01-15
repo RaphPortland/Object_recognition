@@ -14,3 +14,6 @@
 ### 3. Print results 
 Print URL(Homepage address link) of the image which match with the picture named "reference", *my wallet*. 
 We are printing the URL(Homepage address link) because it contains information about the lost place (location, phone number of the lost and found center) and a picture of the item.
+
+
+Libraries used : requests, BeautifulSoup, urllib, numpy, cv2
