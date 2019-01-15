@@ -1,6 +1,15 @@
 #ref : https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_matcher/py_matcher.html
 # Created by Raphael Partouche 
 
+import requests
+from bs4 import BeautifulSoup
+import urllib
+
+import numpy as np
+import cv2
+
+
+
 class itemsinfomation(object):
 	"""docstring for itemsinfomation"""
 	def setplace(self, _place):
@@ -166,13 +175,9 @@ def retrieve_img(url_):
 
 
 
-import requests
-from bs4 import BeautifulSoup
-import urllib
 
-import numpy as np
-import cv2
-#from matplotlib import pyplot as plt
+
+########################
 
 
 choice = 0
